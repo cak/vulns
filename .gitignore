@@ -88,3 +88,12 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+# Mock files
+
+Vulns/Tests/Mocks/nist-critical.swift
+Vulns/Tests/Mocks/nist-high.swift
+Vulns/Tests/Mocks/epps.swift
+
+# Misc
+.DS_Store

@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C1BF05A2B933577007375B0 /* VulnsContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1BF0592B933577007375B0 /* VulnsContoller.swift */; };
+		3C2C0B152B420AD4004AF7EF /* VulnsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2C0B142B420AD4004AF7EF /* VulnsApp.swift */; };
+		3C2C0B172B420AD4004AF7EF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2C0B162B420AD4004AF7EF /* MainView.swift */; };
+		3C2C0B192B420AD5004AF7EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2C0B182B420AD5004AF7EF /* Assets.xcassets */; };
+		3C2C0B1C2B420AD5004AF7EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2C0B1B2B420AD5004AF7EF /* Preview Assets.xcassets */; };
+		3C2C0B272B420B18004AF7EF /* Nist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2C0B262B420B18004AF7EF /* Nist.swift */; };
+		3C6771DF2B53DDF700377ED4 /* Dates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6771DE2B53DDF700377ED4 /* Dates.swift */; };
+		3C6841B92B42C0E30078D2A3 /* MockAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6841B82B42C0E30078D2A3 /* MockAPI.swift */; };
+		3C7A16362B9C718500E4C4C6 /* DaysChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7A16352B9C718500E4C4C6 /* DaysChartView.swift */; };
+		3C8DE9862B42123B00122ACC /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8DE9852B42123B00122ACC /* Formatter.swift */; };
+		3C8DE9882B42137B00122ACC /* VulnsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8DE9872B42137B00122ACC /* VulnsView.swift */; };
+		3C9F80B42B46BA85001DF0C5 /* Epss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F80B32B46BA85001DF0C5 /* Epss.swift */; };
+		3CA11ACC2B806C3600CC3D8E /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA11ACB2B806C3600CC3D8E /* CreditsView.swift */; };
+		3CAB339B2B70EE1E005FD8BD /* CVSSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB339A2B70EE1E005FD8BD /* CVSSData.swift */; };
+		3CAC5F6B2B95D78500AE0AD4 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAC5F6A2B95D78500AE0AD4 /* Settings.swift */; };
+		3CB2C1B32B42C92700D3255C /* VulnRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2C1B22B42C92700D3255C /* VulnRowView.swift */; };
+		3CC1A8A82B52AA620015F456 /* VulnDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC1A8A72B52AA620015F456 /* VulnDetailView.swift */; };
+		3CE0B94D2B889C9D001177E8 /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE0B94C2B889C9D001177E8 /* MetricsView.swift */; };
+		3CE0B94F2B88A026001177E8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE0B94E2B88A026001177E8 /* SettingsView.swift */; };
+		3CED431A2B4EA3B200E12C65 /* epps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CED43192B4EA3B200E12C65 /* epps.swift */; };
+		3CED431C2B4EA3DA00E12C65 /* nist-high.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CED431B2B4EA3DA00E12C65 /* nist-high.swift */; };
+		3CED431E2B4EA47800E12C65 /* nist-critical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CED431D2B4EA47800E12C65 /* nist-critical.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C1BF0592B933577007375B0 /* VulnsContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VulnsContoller.swift; path = Vulns/VulnsContoller.swift; sourceTree = SOURCE_ROOT; };
+		3C2C0B112B420AD4004AF7EF /* Vulns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vulns.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C2C0B142B420AD4004AF7EF /* VulnsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VulnsApp.swift; sourceTree = "<group>"; };
+		3C2C0B162B420AD4004AF7EF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3C2C0B182B420AD5004AF7EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C2C0B1B2B420AD5004AF7EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C2C0B262B420B18004AF7EF /* Nist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nist.swift; sourceTree = "<group>"; };
+		3C6771DE2B53DDF700377ED4 /* Dates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dates.swift; sourceTree = "<group>"; };
+		3C6841B82B42C0E30078D2A3 /* MockAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPI.swift; sourceTree = "<group>"; };
+		3C7A16352B9C718500E4C4C6 /* DaysChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysChartView.swift; sourceTree = "<group>"; };
+		3C8DE9852B42123B00122ACC /* Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
+		3C8DE9872B42137B00122ACC /* VulnsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VulnsView.swift; sourceTree = "<group>"; };
+		3C9F80B32B46BA85001DF0C5 /* Epss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Epss.swift; sourceTree = "<group>"; };
+		3CA11ACB2B806C3600CC3D8E /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		3CAB339A2B70EE1E005FD8BD /* CVSSData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVSSData.swift; sourceTree = "<group>"; };
+		3CAC5F6A2B95D78500AE0AD4 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		3CB2C1B22B42C92700D3255C /* VulnRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VulnRowView.swift; sourceTree = "<group>"; };
+		3CC1A8A72B52AA620015F456 /* VulnDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VulnDetailView.swift; sourceTree = "<group>"; };
+		3CE0B94C2B889C9D001177E8 /* MetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
+		3CE0B94E2B88A026001177E8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3CED43192B4EA3B200E12C65 /* epps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = epps.swift; sourceTree = "<group>"; };
+		3CED431B2B4EA3DA00E12C65 /* nist-high.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "nist-high.swift"; sourceTree = "<group>"; };
+		3CED431D2B4EA47800E12C65 /* nist-critical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "nist-critical.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C2C0B0E2B420AD4004AF7EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C2C0B082B420AD4004AF7EF = {
+			isa = PBXGroup;
+			children = (
+				3C2C0B132B420AD4004AF7EF /* Vulns */,
+				3C2C0B122B420AD4004AF7EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C2C0B122B420AD4004AF7EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C2C0B112B420AD4004AF7EF /* Vulns.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C2C0B132B420AD4004AF7EF /* Vulns */ = {
+			isa = PBXGroup;
+			children = (
+				3C6841BA2B42C1EE0078D2A3 /* Tests */,
+				3C8DE9842B42123000122ACC /* Utils */,
+				3C2C0B242B420AF1004AF7EF /* Controller */,
+				3C2C0B232B420AE3004AF7EF /* View */,
+				3C2C0B222B420ADD004AF7EF /* Model */,
+				3C2C0B142B420AD4004AF7EF /* VulnsApp.swift */,
+				3C2C0B182B420AD5004AF7EF /* Assets.xcassets */,
+				3C2C0B1A2B420AD5004AF7EF /* Preview Content */,
+			);
+			path = Vulns;
+			sourceTree = "<group>";
+		};
+		3C2C0B1A2B420AD5004AF7EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C2C0B1B2B420AD5004AF7EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C2C0B222B420ADD004AF7EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C2C0B262B420B18004AF7EF /* Nist.swift */,
+				3C9F80B32B46BA85001DF0C5 /* Epss.swift */,
+				3CAC5F6A2B95D78500AE0AD4 /* Settings.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C2C0B232B420AE3004AF7EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C2C0B162B420AD4004AF7EF /* MainView.swift */,
+				3CE0B94E2B88A026001177E8 /* SettingsView.swift */,
+				3C8DE9872B42137B00122ACC /* VulnsView.swift */,
+				3CB2C1B22B42C92700D3255C /* VulnRowView.swift */,
+				3CC1A8A72B52AA620015F456 /* VulnDetailView.swift */,
+				3CA11ACB2B806C3600CC3D8E /* CreditsView.swift */,
+				3CE0B94C2B889C9D001177E8 /* MetricsView.swift */,
+				3C7A16352B9C718500E4C4C6 /* DaysChartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C2C0B242B420AF1004AF7EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C1BF0592B933577007375B0 /* VulnsContoller.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C2C0B252B420AF9004AF7EF /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				3C6841B82B42C0E30078D2A3 /* MockAPI.swift */,
+				3CED43192B4EA3B200E12C65 /* epps.swift */,
+				3CED431B2B4EA3DA00E12C65 /* nist-high.swift */,
+				3CED431D2B4EA47800E12C65 /* nist-critical.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		3C6841BA2B42C1EE0078D2A3 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3C2C0B252B420AF9004AF7EF /* Mocks */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		3C8DE9842B42123000122ACC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3C8DE9852B42123B00122ACC /* Formatter.swift */,
+				3C6771DE2B53DDF700377ED4 /* Dates.swift */,
+				3CAB339A2B70EE1E005FD8BD /* CVSSData.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C2C0B102B420AD4004AF7EF /* Vulns */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2C0B1F2B420AD5004AF7EF /* Build configuration list for PBXNativeTarget "Vulns" */;
+			buildPhases = (
+				3C2C0B0D2B420AD4004AF7EF /* Sources */,
+				3C2C0B0E2B420AD4004AF7EF /* Frameworks */,
+				3C2C0B0F2B420AD4004AF7EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vulns;
+			productName = VulnIntel;
+			productReference = 3C2C0B112B420AD4004AF7EF /* Vulns.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C2C0B092B420AD4004AF7EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					3C2C0B102B420AD4004AF7EF = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 3C2C0B0C2B420AD4004AF7EF /* Build configuration list for PBXProject "Vulns" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C2C0B082B420AD4004AF7EF;
+			productRefGroup = 3C2C0B122B420AD4004AF7EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C2C0B102B420AD4004AF7EF /* Vulns */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C2C0B0F2B420AD4004AF7EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2C0B1C2B420AD5004AF7EF /* Preview Assets.xcassets in Resources */,
+				3C2C0B192B420AD5004AF7EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C2C0B0D2B420AD4004AF7EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2C0B172B420AD4004AF7EF /* MainView.swift in Sources */,
+				3C8DE9882B42137B00122ACC /* VulnsView.swift in Sources */,
+				3C8DE9862B42123B00122ACC /* Formatter.swift in Sources */,
+				3CA11ACC2B806C3600CC3D8E /* CreditsView.swift in Sources */,
+				3CE0B94F2B88A026001177E8 /* SettingsView.swift in Sources */,
+				3CC1A8A82B52AA620015F456 /* VulnDetailView.swift in Sources */,
+				3CB2C1B32B42C92700D3255C /* VulnRowView.swift in Sources */,
+				3C2C0B272B420B18004AF7EF /* Nist.swift in Sources */,
+				3C6841B92B42C0E30078D2A3 /* MockAPI.swift in Sources */,
+				3C1BF05A2B933577007375B0 /* VulnsContoller.swift in Sources */,
+				3CED431C2B4EA3DA00E12C65 /* nist-high.swift in Sources */,
+				3C6771DF2B53DDF700377ED4 /* Dates.swift in Sources */,
+				3CED431E2B4EA47800E12C65 /* nist-critical.swift in Sources */,
+				3CAB339B2B70EE1E005FD8BD /* CVSSData.swift in Sources */,
+				3CED431A2B4EA3B200E12C65 /* epps.swift in Sources */,
+				3C9F80B42B46BA85001DF0C5 /* Epss.swift in Sources */,
+				3C7A16362B9C718500E4C4C6 /* DaysChartView.swift in Sources */,
+				3CE0B94D2B889C9D001177E8 /* MetricsView.swift in Sources */,
+				3C2C0B152B420AD4004AF7EF /* VulnsApp.swift in Sources */,
+				3CAC5F6B2B95D78500AE0AD4 /* Settings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3C2C0B1D2B420AD5004AF7EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C2C0B1E2B420AD5004AF7EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C2C0B202B420AD5004AF7EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vulns/Preview Content\"";
+				DEVELOPMENT_TEAM = JKH8RWC9D6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.optionalvalue.VulnIntel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C2C0B212B420AD5004AF7EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vulns/Preview Content\"";
+				DEVELOPMENT_TEAM = JKH8RWC9D6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.optionalvalue.VulnIntel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C2C0B0C2B420AD4004AF7EF /* Build configuration list for PBXProject "Vulns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2C0B1D2B420AD5004AF7EF /* Debug */,
+				3C2C0B1E2B420AD5004AF7EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C2C0B1F2B420AD5004AF7EF /* Build configuration list for PBXNativeTarget "Vulns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2C0B202B420AD5004AF7EF /* Debug */,
+				3C2C0B212B420AD5004AF7EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C2C0B092B420AD4004AF7EF /* Project object */;
+}
